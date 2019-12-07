@@ -23,6 +23,8 @@ Here you can create product, get product list, update a product, assign multiple
 
 - Run project `./startapp.sh`
 
+- To run test `python manage.py test`
+
 > If bash file get permission error run  chmod +x startapp.sh and run previous command again
 
 #### Docker
