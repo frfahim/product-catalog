@@ -25,7 +25,7 @@ class ProductListViewSet(viewsets.ModelViewSet):
     Return details of a product
     """
 
-    permission_classes = (IsAuthenticated, )
+    # permission_classes = (IsAuthenticated, )
     serializer_class = ProductSerializer
     lookup_field = 'slug'
 
